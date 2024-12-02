@@ -23,3 +23,14 @@ downloaded protein FASTA files for the following species from Ensembl's FTP serv
 - files downloaded using `wget` commands from the Ensembl FTP server
 - Files were stored in the `data/raw` directory and unzipped using the `gzip` command
 - Verified that all files were present and correctly named
+
+#### Challenges/Errors:
+- error: accidentally created `results` and `scripts` directories inside the `data` directory instead of the project root
+- cause: mis-specified paths during directory creation
+- fix:
+  1. moved `results` and `scripts` directories to the project root using:
+     ```bash
+     mv data/results ./
+     mv data/scripts ./
+     ```
+  2. fixed directory organization
