@@ -24,6 +24,21 @@ downloaded protein FASTA files for the following species from Ensembl's FTP serv
 - Files were stored in the `data/raw` directory and unzipped using the `gzip` command
 - Verified that all files were present and correctly named
 
+## Version Control
+
+### Git Workflow
+- Added `data/` and `scripts/` directories to version control
+- Staged and committed the following:
+  - Raw FASTA files in `data/raw/`
+  - Processed files placeholder in `data/processed/`
+  - Script for HSP70 extraction: `scripts/extract_hsp70.sh`
+
+#### Commands Used:
+```bash
+git add data/ scripts/
+git commit -m "Added data and scripts directories with HSP70 extraction script"
+git push
+
 #### Challenges/Errors:
 - error: accidentally created `results` and `scripts` directories inside the `data` directory instead of the project root
 - cause: mis-specified paths during directory creation
