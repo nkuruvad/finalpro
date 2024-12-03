@@ -67,8 +67,16 @@ git push
    - Mus_musculus → Mouse
    - (other mappings...)
 2. Replaced scientific names with common names in FASTA headers using:
-   `sed "s/>.*$/>${spp}_/" $file > data/processed/cleaned_${spp}_hsp70.fa`
+   `awk -v sp="$spp" '/^>/ {print ">" sp "_" ++i; next} {print}' "$file" > data/processed/cleaned/${spp}_hsp70.fa`
 3. Combined cleaned files into a single file: `data/processed/combined_hsp70.fa`.
+
+•	Mistakes and Fixes:
+	•	Mistake: Skipped species due to mismatched names in the script.
+Fix: Corrected mappings in cleancomb.sh and re-ran the pipeline.
+	•	Mistake: Accidentally created scripts and results inside the data directory.
+Fix: Removed incorrect directories and reorganized the project structure.
+	•	Validation:
+	•	Verified logs/process_hsp70.out to confirm successful processing and combination.
 
 ### Notes:
 - Common names make downstream results easier to interpret.
