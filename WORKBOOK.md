@@ -49,3 +49,40 @@ git push
      mv data/scripts ./
      ```
   2. fixed directory organization
+
+## Day 2: Hsp70 Extraction and Pipeline Setup
+
+### Extraction
+- focused on Hsp70 after finding relevant sequences in several species.
+- extracted Hsp70 sequences using `grep` for "Hsp70" in gene files.
+- verified processed files and combined them into `data/processed/combined_hsp70.fa`.
+
+## Header Cleanup with Common Names
+
+### Steps Taken:
+1. Mapped scientific names to common names:
+   - Cavia_porcellus → GuineaPig
+   - Castor_canadensis → Beaver
+   - Mus_musculus → Mouse
+   - (other mappings...)
+2. Replaced scientific names with common names in FASTA headers using:
+   `sed "s/>.*$/>${spp}_/" $file > data/processed/cleaned_${spp}_hsp70.fa`
+3. Combined cleaned files into a single file: `data/processed/combined_hsp70.fa`.
+
+### Notes:
+- Common names make downstream results easier to interpret.
+- Example of updated header: `>GuineaPig_1`.
+
+### Alignment
+- aligned sequences using MAFFT with 20 CPUs and 64GB memory.
+- output stored in `results/aligned_hsp70.fa`
+
+### Tree Construction
+- built phylogenetic tree using IQ-TREE with the LG model and 1000 bootstrap replicates.
+- output files include:
+  - tree file: `results/hsp70_tree.treefile`
+  - bootstrap: `results/hsp70_tree.contree`
+
+### Notes
+- no Hsp70 results found in *Castor canadensis* or *Mus musculus* files.
+- proceeding with the Hsp70 focus for phylogenetic analysis.
