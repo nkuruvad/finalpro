@@ -38,6 +38,7 @@ downloaded protein FASTA files for the following species from Ensembl's FTP serv
 git add data/ scripts/
 git commit -m "Added data and scripts directories with HSP70 extraction script"
 git push
+```
 
 #### Challenges/Errors:
 - error: accidentally created `results` and `scripts` directories inside the `data` directory instead of the project root
