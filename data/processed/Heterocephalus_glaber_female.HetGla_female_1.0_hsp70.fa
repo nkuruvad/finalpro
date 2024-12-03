@@ -1,0 +1,53 @@
+>ENSHGLP00000002500.1 pep scaffold:HetGla_female_1.0:JH602193.1:2070523:2079421:1 gene:ENSHGLG00000001884.1 transcript:ENSHGLT00000002552.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA8 description:heat shock protein family A (Hsp70) member 8 [Source:NCBI gene;Acc:101708313]
+MSKGPAVGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQVA
+--
+>ENSHGLP00000002501.1 pep scaffold:HetGla_female_1.0:JH602193.1:2071335:2074881:1 gene:ENSHGLG00000001884.1 transcript:ENSHGLT00000002553.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA8 description:heat shock protein family A (Hsp70) member 8 [Source:NCBI gene;Acc:101708313]
+MSKGPAVGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQVA
+--
+>ENSHGLP00000003546.1 pep scaffold:HetGla_female_1.0:JH602139.1:34585:37217:1 gene:ENSHGLG00000002619.1 transcript:ENSHGLT00000003601.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA6 description:heat shock protein family A (Hsp70) member 6 [Source:NCBI gene;Acc:101701238]
+MQTAAMEICIDLGSTFSCVGVFQHGKVEILANDQGNRTTPSYVAFTDTERLVGDAAQSQG
+--
+>ENSHGLP00000007282.1 pep scaffold:HetGla_female_1.0:JH602056.1:31324085:31345695:-1 gene:ENSHGLG00000005302.1 transcript:ENSHGLT00000007367.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA9 description:heat shock protein family A (Hsp70) member 9 [Source:NCBI gene;Acc:101715170]
+MISASRAAAARLVGAAASWGTVARHQDGWNGLSHEAFRFVSSRDYASEAIKGAVVGIDLG
+--
+>ENSHGLP00000008938.1 pep scaffold:HetGla_female_1.0:JH602145.1:1998005:2009683:1 gene:ENSHGLG00000006425.1 transcript:ENSHGLT00000009033.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPBP1 description:HSPA (Hsp70) binding protein 1 [Source:NCBI gene;Acc:101708996]
+MADKGSGGSRLPLALPPASQGCSSGGSGGSSAEGSGNPRPPRNLQGLLQMAITAGSMEPD
+--
+>ENSHGLP00000011415.1 pep scaffold:HetGla_female_1.0:JH602090.1:8711869:8780297:1 gene:ENSHGLG00000008183.1 transcript:ENSHGLT00000011542.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA4L description:heat shock protein family A (Hsp70) member 4 like [Source:NCBI gene;Acc:101699137]
+MSVVGIDLGFLNCYIAVARSGGIETIANEYSDRCTPACISLGSRTRAIGNAAKSQIVTNV
+--
+>ENSHGLP00000015616.1 pep scaffold:HetGla_female_1.0:JH602067.1:24416738:24424613:1 gene:ENSHGLG00000011169.1 transcript:ENSHGLT00000015780.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA1L description:heat shock protein family A (Hsp70) member 1 like [Source:NCBI gene;Acc:101699805]
+MTTTKGMAIGIDLGTTYSCAGVFQHGKVEIIANDQGNCTTHSYVAFTDTERLIRDVAKNQ
+--
+>ENSHGLP00000017576.1 pep scaffold:HetGla_female_1.0:JH602073.1:9986656:9995252:1 gene:ENSHGLG00000012577.1 transcript:ENSHGLT00000017751.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA5 description:heat shock protein family A (Hsp70) member 5 [Source:NCBI gene;Acc:101713339]
+KMKLCLVAAVLLLLGAARAEEEDKKEDVGTVVGIDLGTTYSCVGVFKNGRVEIIANDQGN
+--
+>ENSHGLP00000018554.1 pep scaffold:HetGla_female_1.0:JH602054.1:4818589:4837862:1 gene:ENSHGLG00000013276.1 transcript:ENSHGLT00000018738.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA12B description:heat shock protein family A (Hsp70) member 12B [Source:NCBI gene;Acc:101699408]
+MLAVPEMGLQGLYIGSSPECSPVPSPPGSPRIQESCSIAPLTPSQSPKPEARVPQQASFS
+--
+>ENSHGLP00000018722.1 pep scaffold:HetGla_female_1.0:JH602065.1:7634970:7661974:1 gene:ENSHGLG00000013411.1 transcript:ENSHGLT00000018909.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:ST13 description:ST13 Hsp70 interacting protein [Source:NCBI gene;Acc:101712834]
+MDPRKVNELRAFVKMCKQDPSVLHTEEMRFLREWVESMGGKVPPATHKAKSEENIKEEKT
+--
+>ENSHGLP00000020115.1 pep scaffold:HetGla_female_1.0:JH602050.1:29758011:29913140:1 gene:ENSHGLG00000014400.1 transcript:ENSHGLT00000020316.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA12A description:heat shock protein family A (Hsp70) member 12A [Source:NCBI gene;Acc:101726693]
+MMESVGVYGFCGCKAKNKLKCDSRWEITAAETAPTSEYSSPARSLGDTGITPLSPSHIVN
+--
+>ENSHGLP00000020116.1 pep scaffold:HetGla_female_1.0:JH602050.1:29770263:29913140:1 gene:ENSHGLG00000014400.1 transcript:ENSHGLT00000020317.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA12A description:heat shock protein family A (Hsp70) member 12A [Source:NCBI gene;Acc:101726693]
+MESVGVYGFCGCKAKNKLKCDSRWEITAAETAPTSEYSSPARSLGDTGITPLSPSHIVND
+--
+>ENSHGLP00000020117.1 pep scaffold:HetGla_female_1.0:JH602050.1:29848257:29914134:1 gene:ENSHGLG00000014400.1 transcript:ENSHGLT00000020318.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA12A description:heat shock protein family A (Hsp70) member 12A [Source:NCBI gene;Acc:101726693]
+MADKEAGSSDPGARETAPTSEYSSPARSLGDTGITPLSPSHIVNDANSNASEQQTFLVVV
+--
+>ENSHGLP00000020118.1 pep scaffold:HetGla_female_1.0:JH602050.1:29888426:29913140:1 gene:ENSHGLG00000014400.1 transcript:ENSHGLT00000020319.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA12A description:heat shock protein family A (Hsp70) member 12A [Source:NCBI gene;Acc:101726693]
+KCSGICGASSETAPTSEYSSPARSLGDTGITPLSPSHIVNDANSNASEQQTFLVVVAIDF
+--
+>ENSHGLP00000020119.1 pep scaffold:HetGla_female_1.0:JH602050.1:29888780:29913140:1 gene:ENSHGLG00000014400.1 transcript:ENSHGLT00000020320.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA12A description:heat shock protein family A (Hsp70) member 12A [Source:NCBI gene;Acc:101726693]
+SWGPSAGSETAPTSEYSSPARSLGDTGITPLSPSHIVNDANSNASEQQTFLVVVAIDFGT
+--
+>ENSHGLP00000021788.1 pep scaffold:HetGla_female_1.0:JH602058.1:2840513:2852255:-1 gene:ENSHGLG00000015563.1 transcript:ENSHGLT00000021998.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA13 description:heat shock protein family A (Hsp70) member 13 [Source:NCBI gene;Acc:101712455]
+MAGEMTILGSAVLTLLLAGYLAQQYLPLPTPKVIGIDLGTTYCSVGVFFPGTGKVKVIPD
+--
+>ENSHGLP00000023868.1 pep scaffold:HetGla_female_1.0:JH602046.1:39021738:39068132:-1 gene:ENSHGLG00000017017.1 transcript:ENSHGLT00000024086.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA4 description:heat shock protein family A (Hsp70) member 4 [Source:NCBI gene;Acc:101710260]
+MSVVGIDLGFQSCYVAVARAGGIETIANEYSDRCTPACISFGPKNRSIGAAAKSQVISNA
+--
+>ENSHGLP00000024579.1 pep scaffold:HetGla_female_1.0:JH602118.1:623149:660922:-1 gene:ENSHGLG00000017522.1 transcript:ENSHGLT00000024801.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA14 description:heat shock protein family A (Hsp70) member 14 [Source:NCBI gene;Acc:101702271]
+MAAIGVHLGCTSACVAVYKDGRAGVVANDAGDRVTPAVVAFSESEEVVGLAAKQSRIRNI

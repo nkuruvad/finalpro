@@ -1,0 +1,47 @@
+>ENSRNOP00000026696.4 pep chromosome:Rnor_6.0:18:27731072:27749235:-1 gene:ENSRNOG00000019525.6 transcript:ENSRNOT00000026696.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa9 description:heat shock protein family A (Hsp70) member 9 [Source:RGD Symbol;Acc:1311806]
+MISASRAAAARLVGTTASRSPAAARHQDGWNGLSHEAFRFVSRRDYASEAIKGAVVGIDL
+--
+>ENSRNOP00000024251.3 pep chromosome:Rnor_6.0:1:72732668:72756082:1 gene:ENSRNOG00000017795.5 transcript:ENSRNOT00000024251.5 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspbp1 description:HSPA (Hsp70) binding protein 1 [Source:RGD Symbol;Acc:628677]
+MADKGSGGSRLPLALPPASQGCSSGSSGSSAGGSGNPRLPRNLQGLLQMAITAGSEEPDP
+--
+>ENSRNOP00000042159.5 pep chromosome:Rnor_6.0:8:44990014:44993179:1 gene:ENSRNOG00000034066.5 transcript:ENSRNOT00000044608.5 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa8 description:heat shock protein family A (Hsp70) member 8 [Source:RGD Symbol;Acc:621725]
+MSKGPAVGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQVA
+--
+>ENSRNOP00000028856.6 pep chromosome:Rnor_6.0:3:123670275:123687691:1 gene:ENSRNOG00000021244.7 transcript:ENSRNOT00000028856.7 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa12b description:heat shock protein family A (Hsp70) member 12B [Source:RGD Symbol;Acc:1312004]
+MLTVPEMGLQGLYISSSPERSPVPSPPGSPRTQESCGIAPLTPSQSPKPEVRAPQRASFS
+--
+>ENSRNOP00000023628.3 pep chromosome:Rnor_6.0:10:38601624:38642397:-1 gene:ENSRNOG00000016596.3 transcript:ENSRNOT00000023628.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa4 description:heat shock protein family A (Hsp70) member 4 [Source:RGD Symbol;Acc:628878]
+MSVVGIDLGFQSCYVAVARAGGIETIANEYSDRCTPACVSFGPKNRSVGAAAKSQVISNA
+--
+>ENSRNOP00000069216.1 pep chromosome:Rnor_6.0:6:99433550:99436289:1 gene:ENSRNOG00000006472.5 transcript:ENSRNOT00000079359.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa2 description:heat shock protein family A (Hsp70) member 2 [Source:RGD Symbol;Acc:620664]
+MSARGPAIGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQV
+--
+>ENSRNOP00000008504.3 pep chromosome:Rnor_6.0:6:99433572:99436284:1 gene:ENSRNOG00000006472.5 transcript:ENSRNOT00000008504.5 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa2 description:heat shock protein family A (Hsp70) member 2 [Source:RGD Symbol;Acc:620664]
+MSARGPAIGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQV
+--
+>ENSRNOP00000071352.1 pep chromosome:Rnor_6.0:11:14144130:14160892:-1 gene:ENSRNOG00000060979.1 transcript:ENSRNOT00000091864.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa13 description:heat shock protein family A (Hsp70) member 13 [Source:RGD Symbol;Acc:3775]
+MAGEMTILGSAVLTLLLAGYLAQQYLPLPTPKVIGIDLGTTYCSVGVFFPGTGKVKVIPD
+--
+>ENSRNOP00000070174.1 pep chromosome:Rnor_6.0:11:14146521:14160697:-1 gene:ENSRNOG00000060979.1 transcript:ENSRNOT00000081096.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa13 description:heat shock protein family A (Hsp70) member 13 [Source:RGD Symbol;Acc:3775]
+MAGEMTILGSAVLTLLLAGYLAQQYLPLPTPKVIGIDLGTTYCSVGVFFPGTGKVKVIPD
+--
+>ENSRNOP00000024548.4 pep chromosome:Rnor_6.0:1:279946811:280015358:-1 gene:ENSRNOG00000018019.5 transcript:ENSRNOT00000024548.5 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa12a description:heat shock protein family A (Hsp70) member 12A [Source:RGD Symbol;Acc:1305531]
+MADKEAGGGDAGPRETAPTSAYSSPARSLGDTGITPLSPSHILNDADPVSEQQTFLVVVA
+--
+>ENSRNOP00000015474.6 pep chromosome:Rnor_6.0:2:127625683:127677503:1 gene:ENSRNOG00000010819.6 transcript:ENSRNOT00000015474.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa4l description:heat shock protein family A (Hsp70) member 4 like [Source:RGD Symbol;Acc:1306528]
+MYFVFIIATAGAIATLAAAALTAVLIVKRLSNLKRGTNTDYESTEHVDKNYVSSSRVEQE
+--
+>ENSRNOP00000063974.1 pep chromosome:Rnor_6.0:20:4959294:4964963:1 gene:ENSRNOG00000047966.2 transcript:ENSRNOT00000074223.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa1l description:heat shock protein family A (Hsp70) member 1 like [Source:RGD Symbol;Acc:1595925]
+MAANKGMAIGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQ
+--
+>ENSRNOP00000075599.1 pep chromosome:Rnor_6.0:20:4877324:4879779:-1 gene:ENSRNOG00000050647.2 transcript:ENSRNOT00000081924.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa1b description:heat shock protein family A (Hsp70) member 1B [Source:RGD Symbol;Acc:2840]
+MAKKTAIGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQVA
+--
+>ENSRNOP00000025064.4 pep chromosome:Rnor_6.0:3:13838304:13842762:1 gene:ENSRNOG00000018294.6 transcript:ENSRNOT00000025067.6 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa5 description:heat shock protein family A (Hsp70) member 5 [Source:RGD Symbol;Acc:2843]
+MKFTVVAAALLLLCAVRAEEEDKKEDVGTVVGIDLGTTYSCVGVFKNGRVEIIANDQGNR
+--
+>ENSRNOP00000020854.3 pep chromosome:Rnor_6.0:17:78735598:78756399:1 gene:ENSRNOG00000015212.6 transcript:ENSRNOT00000020854.5 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa14 description:heat shock protein family A (Hsp70) member 14 [Source:RGD Symbol;Acc:1303296]
+MAAIGVHLGCTSACVAVYKDGRADVVANDAGDRVTPAVVAYSEREQVVGLAAKQSRIRNI
+--
+>ENSRNOP00000025925.2 pep chromosome:Rnor_6.0:7:122585771:122635731:-1 gene:ENSRNOG00000019070.4 transcript:ENSRNOT00000025925.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:St13 description:ST13, Hsp70 interacting protein [Source:RGD Symbol;Acc:621312]
+MDPRKVSELRAFVKMCRQDPSVLHTEEMRFLREWVESMGGKVPPATHKAKSEENTKEEKR

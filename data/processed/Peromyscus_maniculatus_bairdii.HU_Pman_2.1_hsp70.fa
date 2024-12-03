@@ -1,0 +1,17 @@
+>ENSPEMP00000009720.1 pep primary_assembly:HU_Pman_2.1:21:2683654:2685579:-1 gene:ENSPEMG00000010938.2 transcript:ENSPEMT00000013892.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa1l description:heat shock protein family A (Hsp70) member 1 like [Source:NCBI gene;Acc:102914002]
+MAANKGMAIGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQ
+--
+>ENSPEMP00000011257.2 pep primary_assembly:HU_Pman_2.1:12:60442744:60450102:-1 gene:ENSPEMG00000011955.2 transcript:ENSPEMT00000015441.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa13 description:heat shock protein family A (Hsp70) member 13 [Source:NCBI gene;Acc:102921260]
+MAGEMTILGSAVLTLLLAGYLAQQYLPLPTPKVIGIDLGTTYCSVGVFFPGTGKVKVIPD
+--
+>ENSPEMP00000022108.1 pep primary_assembly:HU_Pman_2.1:7:35308783:35311998:1 gene:ENSPEMG00000019570.2 transcript:ENSPEMT00000026472.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa8 description:heat shock protein family A (Hsp70) member 8 [Source:NCBI gene;Acc:102917037]
+MSKGPAVGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQVA
+--
+>ENSPEMP00000012646.1 pep primary_assembly:HU_Pman_2.1:6:1590681:1634452:1 gene:ENSPEMG00000012904.2 transcript:ENSPEMT00000016858.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa4l description:heat shock protein family A (Hsp70) member 4 like [Source:NCBI gene;Acc:102921663]
+MSVVGIDLGFLNCYIAVARSGGIETIANEYSDRCTPACISLGSRTRAIGNAAKSQIVTNV
+--
+>ENSPEMP00000021728.1 pep primary_assembly:HU_Pman_2.1:4:105228374:105238892:1 gene:ENSPEMG00000019282.2 transcript:ENSPEMT00000026090.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa12b description:heat shock protein family A (Hsp70) member 12B [Source:NCBI gene;Acc:102908890]
+MLTVPEMGLQGLYISSSPDRSPVPSPPGSPRTQESCGIAPLTPSHSPKPEARAPQQASFS
+--
+>ENSPEMP00000002142.2 pep primary_assembly:HU_Pman_2.1:1:191396007:191464439:1 gene:ENSPEMG00000002037.2 transcript:ENSPEMT00000002723.2 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:Hspa12a description:heat shock protein family A (Hsp70) member 12A [Source:NCBI gene;Acc:102909586]
+MADKEAGGGDTGSRETAPTSAYSSPARSLGDTGITPLSPSHILNDADPVSEQQTFLVVVA

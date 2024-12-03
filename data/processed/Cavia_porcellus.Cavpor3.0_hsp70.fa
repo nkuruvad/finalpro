@@ -1,0 +1,47 @@
+>ENSCPOP00000007075.3 pep scaffold:Cavpor3.0:DS562889.1:8388393:8395815:1 gene:ENSCPOG00000007860.4 transcript:ENSCPOT00000007935.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA13 description:heat shock protein family A (Hsp70) member 13 [Source:HGNC Symbol;Acc:HGNC:11375]
+MAGEMTILGSAVLTLLLAGYLAQQYLPLPTPKVIGIDLGTTYCSVGVFFPGTGKVKVIPD
+--
+>ENSCPOP00000003686.3 pep scaffold:Cavpor3.0:DS562936.1:2152822:2191756:1 gene:ENSCPOG00000004085.4 transcript:ENSCPOT00000004130.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA4 description:heat shock protein family A (Hsp70) member 4 [Source:HGNC Symbol;Acc:HGNC:5237]
+MSVVGIDLGFQSCYVAVARAGGIETIANEYSDRCTPACISFGPKNRSIGAAAKSQVISNA
+--
+>ENSCPOP00000024225.1 pep scaffold:Cavpor3.0:DS562925.1:148251:163655:1 gene:ENSCPOG00000030758.1 transcript:ENSCPOT00000034994.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPBP1 description:HSPA (Hsp70) binding protein 1 [Source:HGNC Symbol;Acc:HGNC:24989]
+MADKGSGGSRLPLALPPASQGCSSGGSSGSSAENSGNPRPPRNLQGLLQMAITAGSVEPD
+--
+>ENSCPOP00000002148.2 pep scaffold:Cavpor3.0:DS562861.1:961207:979809:-1 gene:ENSCPOG00000002363.4 transcript:ENSCPOT00000002396.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA9 description:heat shock protein family A (Hsp70) member 9 [Source:HGNC Symbol;Acc:HGNC:5244]
+MISASRAAAARLVGAAASRGTISRHQDGWNGLSHEAFRFVSRRGYASEAIKGAVVGIDLG
+--
+>ENSCPOP00000003760.2 pep scaffold:Cavpor3.0:DS562874.1:25399916:25404138:1 gene:ENSCPOG00000004169.4 transcript:ENSCPOT00000004214.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA8 description:heat shock protein family A (Hsp70) member 8 [Source:HGNC Symbol;Acc:HGNC:5241]
+MSKGPAVGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQVA
+--
+>ENSCPOP00000029547.1 pep scaffold:Cavpor3.0:DS562874.1:25400692:25403911:1 gene:ENSCPOG00000004169.4 transcript:ENSCPOT00000041517.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA8 description:heat shock protein family A (Hsp70) member 8 [Source:HGNC Symbol;Acc:HGNC:5241]
+MSKGPAVGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQVA
+--
+>ENSCPOP00000026328.1 pep scaffold:Cavpor3.0:DS562875.1:9501139:9503050:1 gene:ENSCPOG00000003486.4 transcript:ENSCPOT00000003530.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA2 description:heat shock protein family A (Hsp70) member 2 [Source:HGNC Symbol;Acc:HGNC:5235]
+MCARGPAIGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQV
+--
+>ENSCPOP00000006502.2 pep scaffold:Cavpor3.0:DS562863.1:20932778:20951886:-1 gene:ENSCPOG00000007213.4 transcript:ENSCPOT00000007285.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA12B description:heat shock protein family A (Hsp70) member 12B [Source:HGNC Symbol;Acc:HGNC:16193]
+MLAVPEMGLQGLYIGSSPERSPVPSPPGSPRTQESCGIAPLTPSQSPKPEARVPQQASFS
+--
+>ENSCPOP00000007631.2 pep scaffold:Cavpor3.0:DS562894.1:19080936:19111076:1 gene:ENSCPOG00000008489.4 transcript:ENSCPOT00000008566.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA14 description:heat shock protein family A (Hsp70) member 14 [Source:HGNC Symbol;Acc:HGNC:29526]
+MAAIGVHLGCTSACVAVYKDGRADVVANDAGDRVTPAVVAYSENEEVVGMAAKQSRIRNI
+--
+>ENSCPOP00000027985.1 pep scaffold:Cavpor3.0:DS562856.1:50935807:51090118:1 gene:ENSCPOG00000003085.4 transcript:ENSCPOT00000035861.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA12A description:heat shock protein family A (Hsp70) member 12A [Source:HGNC Symbol;Acc:HGNC:19022]
+MMESVGVYGFCGCKAKNKLKCDSKWEITAAETAPTSAYSSPARSLGDTGITPLSPSHIVN
+--
+>ENSCPOP00000021942.1 pep scaffold:Cavpor3.0:DS562856.1:51025539:51090118:1 gene:ENSCPOG00000003085.4 transcript:ENSCPOT00000041310.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA12A description:heat shock protein family A (Hsp70) member 12A [Source:HGNC Symbol;Acc:HGNC:19022]
+MADKEAGGSDTGSRETAPTSAYSSPARSLGDTGITPLSPSHIVNDADSNVSDQQTFLVVV
+--
+>ENSCPOP00000002793.3 pep scaffold:Cavpor3.0:DS562856.1:51059077:51086389:1 gene:ENSCPOG00000003085.4 transcript:ENSCPOT00000003128.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA12A description:heat shock protein family A (Hsp70) member 12A [Source:HGNC Symbol;Acc:HGNC:19022]
+PSYQREGGSDTLSFLSETAPTSAYSSPARSLGDTGITPLSPSHIVNDADSNVSDQQTFLV
+--
+>ENSCPOP00000031807.1 pep scaffold:Cavpor3.0:DS562870.1:41150279:41157764:1 gene:ENSCPOG00000035528.1 transcript:ENSCPOT00000038194.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA1L description:heat shock protein family A (Hsp70) member 1 like [Source:HGNC Symbol;Acc:HGNC:5234]
+MATAKGMAIGIDLGTTYSCVGVFQHGKVEIIANDQGNRTTPSYVAFTDTERLIGDAAKNQ
+--
+>ENSCPOP00000032421.1 pep scaffold:Cavpor3.0:DS562862.1:8858592:8906364:1 gene:ENSCPOG00000006720.4 transcript:ENSCPOT00000032104.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA4L description:heat shock protein family A (Hsp70) member 4 like [Source:HGNC Symbol;Acc:HGNC:17041]
+MSVVGIDLGFLNCYIAVARSGGIETIANEYSDRCTPACISLGSRTRAIGNAAKSQIVTNV
+--
+>ENSCPOP00000006055.3 pep scaffold:Cavpor3.0:DS562862.1:8858902:8905271:1 gene:ENSCPOG00000006720.4 transcript:ENSCPOT00000006789.3 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA4L description:heat shock protein family A (Hsp70) member 4 like [Source:HGNC Symbol;Acc:HGNC:17041]
+MSVVGIDLGFLNCYIAVARSGGIETIANEYSDRCTPACISLGSRTRAIGNAAKSQIVTNV
+--
+>ENSCPOP00000030463.1 pep scaffold:Cavpor3.0:DS562911.1:11210443:11212374:1 gene:ENSCPOG00000033682.1 transcript:ENSCPOT00000040932.1 gene_biotype:protein_coding transcript_biotype:protein_coding gene_symbol:HSPA6 description:heat shock protein family A (Hsp70) member 6 [Source:HGNC Symbol;Acc:HGNC:5239]
+MSIPREVAIGIDLGTTFSCVGVFQHGKVEILANDQGNRTTPSYVAFTDTERLVGDAAKSQ
