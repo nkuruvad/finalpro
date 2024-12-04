@@ -1,0 +1,10 @@
+Processed file for Beaver: data/processed/cleaned/Beaver_hsp70.fa
+Processed file for GuineaPig: data/processed/cleaned/GuineaPig_hsp70.fa
+Warning: combined_hsp70 not recognized. Skipping file.
+Processed file for NakedMoleRat: data/processed/cleaned/NakedMoleRat_hsp70.fa
+Processed file for GroundSquirrel: data/processed/cleaned/GroundSquirrel_hsp70.fa
+Processed file for Mouse: data/processed/cleaned/Mouse_hsp70.fa
+Processed file for DeerMouse: data/processed/cleaned/DeerMouse_hsp70.fa
+Processed file for Rat: data/processed/cleaned/Rat_hsp70.fa
+Combined file created: data/processed/combined_hsp70.fa
+Success!
