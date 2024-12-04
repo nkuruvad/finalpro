@@ -1,0 +1,382 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Input file name: results/alignment/combined_hsp70_aligned.fa
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 299935
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 75 sequences with 145 amino-acid sites
+Number of constant sites: 21 (= 14.4828% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 21 (= 14.4828% of all sites)
+Number of parsimony informative sites: 109
+Number of distinct site patterns: 142
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2971.3450 (s.e. 177.3715)
+Unconstrained log-likelihood (without tree): -717.4675
+Number of free parameters (#branches + #model parameters): 125
+Akaike information criterion (AIC) score: 6192.6900
+Corrected Akaike information criterion (AICc) score: 7850.5847
+Bayesian information criterion (BIC) score: 6564.7817
+
+Total tree length (sum of branch lengths): 17.2104
+Sum of internal branch lengths: 11.8551 (68.8836% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0069) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'DeerMouse_1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**DeerMouse_1
+|
+|                                +**DeerMouse_2
+|                          +-----| (100)
+|                          |     +**GroundSquirrel_3
+|                       +--| (85)
+|                       |  |            +**DeerMouse_4
+|                       |  |         +--| (93)
+|                       |  |         |  +**GuineaPig_14
+|                       |  |      +--| (73)
+|                       |  |      |  |  +**GroundSquirrel_9
+|                       |  |      |  +--| (38)
+|                       |  |      |     |     +**GuineaPig_2
+|                       |  |      |     |  +**| (96)
+|                       |  |      |     |  |  +**NakedMoleRat_17
+|                       |  |      |     +--| (38)
+|                       |  |      |        +--Rat_5
+|                       |  |  +---| (88)
+|                       |  |  |   |                                                           +--DeerMouse_5
+|                       |  |  |   |                                                        +--| (98)
+|                       |  |  |   |                                                        |  +--Rat_4
+|                       |  |  |   |                                                     +--| (96)
+|                       |  |  |   |                                                     |  +--GroundSquirrel_8
+|                       |  |  |   |                                                  +**| (69)
+|                       |  |  |   |                                                  |  +**GuineaPig_8
+|                       |  |  |   |                                      +-----------| (98)
+|                       |  |  |   |                                      |           +--NakedMoleRat_9
+|                       |  |  |   |                                 +----| (78)
+|                       |  |  |   |                                 |    |             +**GroundSquirrel_16
+|                       |  |  |   |                                 |    +-------------| (100)
+|                       |  |  |   |                                 |                  |     +--GuineaPig_3
+|                       |  |  |   |                                 |                  |  +--| (97)
+|                       |  |  |   |                                 |                  |  |  +--NakedMoleRat_5
+|                       |  |  |   |                                 |                  +--| (96)
+|                       |  |  |   |                                 |                     +--Rat_2
+|                       |  |  |   |                              +--| (66)
+|                       |  |  |   |                              |  +--GroundSquirrel_15
+|                       |  |  |   |                           +--| (50)
+|                       |  |  |   |                           |  |  +---GroundSquirrel_14
+|                       |  |  |   |                           |  +--| (82)
+|                       |  |  |   |                           |     |  +--NakedMoleRat_14
+|                       |  |  |   |                           |     +--| (94)
+|                       |  |  |   |                           |        +--NakedMoleRat_15
+|                       |  |  |   |                        +--| (50)
+|                       |  |  |   |                        |  |              +--DeerMouse_6
+|                       |  |  |   |                        |  |           +--| (81)
+|                       |  |  |   |                        |  |           |  +--Rat_10
+|                       |  |  |   |                        |  |        +--| (84)
+|                       |  |  |   |                        |  |        |  |  +**GroundSquirrel_12
+|                       |  |  |   |                        |  |        |  +**| (93)
+|                       |  |  |   |                        |  |        |     +**GroundSquirrel_13
+|                       |  |  |   |                        |  |     +**| (27)
+|                       |  |  |   |                        |  |     |  |                            +--GroundSquirrel_10
+|                       |  |  |   |                        |  |     |  |                         +--| (87)
+|                       |  |  |   |                        |  |     |  |                         |  +--Rat_16
+|                       |  |  |   |                        |  |     |  +-------------------------| (100)
+|                       |  |  |   |                        |  |     |                            +**NakedMoleRat_10
+|                       |  |  |   |                        |  |  +--| (36)
+|                       |  |  |   |                        |  |  |  +--NakedMoleRat_13
+|                       |  |  |   |                        |  +--| (42)
+|                       |  |  |   |                        |     +**GuineaPig_11
+|                       |  |  |   |                     +--| (34)
+|                       |  |  |   |                     |  |     +**GroundSquirrel_11
+|                       |  |  |   |                     |  +-----| (100)
+|                       |  |  |   |                     |        |  +--GuineaPig_10
+|                       |  |  |   |                     |        +--| (96)
+|                       |  |  |   |                     |           |  +**NakedMoleRat_11
+|                       |  |  |   |                     |           +--| (98)
+|                       |  |  |   |                     |              +**NakedMoleRat_12
+|                       |  |  |   |           +---------| (85)
+|                       |  |  |   |           |         +**GuineaPig_12
+|                       |  |  |   |        +**| (29)
+|                       |  |  |   |        |  |                    +**GroundSquirrel_5
+|                       |  |  |   |        |  |                 +--| (92)
+|                       |  |  |   |        |  |                 |  |  +--GuineaPig_4
+|                       |  |  |   |        |  |                 |  +--| (99)
+|                       |  |  |   |        |  |                 |     +--NakedMoleRat_4
+|                       |  |  |   |        |  +-----------------| (100)
+|                       |  |  |   |        |                    +**Rat_1
+|                       |  |  |   |  +-----| (84)
+|                       |  |  |   |  |     +----------------GroundSquirrel_1
+|                       |  |  |   +--| (64)
+|                       |  |  |      +---------------Rat_11
+|                       |  +--| (86)
+|                       |     |           +**GroundSquirrel_2
+|                       |     |        +--| (85)
+|                       |     |        |  +--NakedMoleRat_18
+|                       |     |     +--| (82)
+|                       |     |     |  +--GuineaPig_9
+|                       |     +-----| (99)
+|                       |           +**Rat_15
+|                    +--| (65)
+|                    |  |     +--GroundSquirrel_17
+|                    |  |  +--| (62)
+|                    |  |  |  +**GuineaPig_16
+|                    |  +--| (61)
+|                    |     +--NakedMoleRat_3
+|                 +**| (15)
+|                 |  +**GroundSquirrel_18
+|              +**| (36)
+|              |  +**GroundSquirrel_19
+|           +--| (49)
+|           |  +--Rat_13
+|        +--| (47)
+|        |  |     +**DeerMouse_3
+|        |  |  +--| (98)
+|        |  |  |  +**GroundSquirrel_7
+|        |  +--| (76)
+|        |     |  +**GuineaPig_7
+|        |     +--| (99)
+|        |        |  +**Rat_6
+|        |        +--| (94)
+|        |           +**Rat_7
+|     +**| (38)
+|     |  |     +**GroundSquirrel_4
+|     |  |  +**| (94)
+|     |  |  |  +--NakedMoleRat_8
+|     |  +--| (96)
+|     |     +--Rat_14
+|  +--| (45)
+|  |  +**GroundSquirrel_6
++--| (97)
+|  |  +**GuineaPig_13
+|  +--| (53)
+|     +--NakedMoleRat_7
+|
++**Rat_12
+
+Tree in newick format:
+
+(DeerMouse_1:0.0000024234,((((((((((DeerMouse_2:0.0000020300,GroundSquirrel_3:0.0000022661)100:0.5421039005,((((DeerMouse_4:0.0000010000,GuineaPig_14:0.0000010000)93:0.1026224973,(GroundSquirrel_9:0.0000029337,((GuineaPig_2:0.0000010000,NakedMoleRat_17:0.0000010000)96:0.0000025617,Rat_5:0.0318822796)38:0.0158409752)38:0.1312751070)73:0.1715769788,(((((((((((((DeerMouse_5:0.0347376218,Rat_4:0.0352571749)98:0.0360706519,GroundSquirrel_8:0.0180092975)96:0.0175002915,GuineaPig_8:0.0000020404)69:0.0000028896,NakedMoleRat_9:0.0539825886)98:1.0432187970,(GroundSquirrel_16:0.0000021256,((GuineaPig_3:0.0253531848,NakedMoleRat_5:0.0299676375)97:0.0376086279,Rat_2:0.0368842046)96:0.0182429539)100:1.2498476840)78:0.4356351016,GroundSquirrel_15:0.1464409141)66:0.0563632692,(GroundSquirrel_14:0.3697950861,(NakedMoleRat_14:0.0528090782,NakedMoleRat_15:0.0659979778)94:0.0359268351)82:0.0494352512)50:0.1001567109,(((((DeerMouse_6:0.0169362847,Rat_10:0.0171181776)81:0.0343737218,(GroundSquirrel_12:0.0000010000,GroundSquirrel_13:0.0000010000)93:0.0000021042)84:0.0309492993,((GroundSquirrel_10:0.0169931102,Rat_16:0.0343686840)87:0.0294052563,NakedMoleRat_10:0.0050197589)100:2.2825392050)27:0.0000024087,NakedMoleRat_13:0.0994445477)36:0.0193808950,GuineaPig_11:0.0000022487)42:0.0976580419)50:0.0737892073,(GroundSquirrel_11:0.0000023944,(GuineaPig_10:0.0166281058,(NakedMoleRat_11:0.0000010000,NakedMoleRat_12:0.0000010000)98:0.0166906886)96:0.0161977751)100:0.5514251041)34:0.0106378258,GuineaPig_12:0.0000021209)85:0.8812605684,((GroundSquirrel_5:0.0000010000,(GuineaPig_4:0.0494749574,NakedMoleRat_4:0.0348019726)99:0.0160444570)92:0.0681028492,Rat_1:0.0000021660)100:1.5674979190)29:0.0000023839,GroundSquirrel_1:1.5096175860)84:0.5866196698,Rat_11:1.3628671958)64:0.1862184721)88:0.3399047864,(((GroundSquirrel_2:0.0000010000,NakedMoleRat_18:0.0322449858)85:0.0164527829,GuineaPig_9:0.0156200395)82:0.0329601191,Rat_15:0.0000020149)99:0.5281926429)86:0.2636719797)85:0.1678764416,((GroundSquirrel_17:0.1024345289,GuineaPig_16:0.0000022275)62:0.0640687311,NakedMoleRat_3:0.1764338407)61:0.0825621097)65:0.0363872772,GroundSquirrel_18:0.0000010000)15:0.0000021104,GroundSquirrel_19:0.0000010000)36:0.0000020478,Rat_13:0.0162431511)49:0.0171686627,((DeerMouse_3:0.0000010000,GroundSquirrel_7:0.0000010000)98:0.0326628001,(GuineaPig_7:0.0000024197,(Rat_6:0.0000010000,Rat_7:0.0000021864)94:0.0164617378)99:0.0417868156)76:0.0205255119)47:0.0232412636,((GroundSquirrel_4:0.0000026796,NakedMoleRat_8:0.0347087914)94:0.0031070166,Rat_14:0.0831949330)96:0.3167092396)38:0.0000020502,GroundSquirrel_6:0.0000028658)45:0.0163188447,(GuineaPig_13:0.0000021525,NakedMoleRat_7:0.1193895617)53:0.0162604479)97:0.0171163215,Rat_12:0.0000020441);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2972.501289
+Robinson-Foulds distance between ML tree and consensus tree: 12
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--DeerMouse_1
+|
+|                                         +**DeerMouse_2
+|                                      +**|
+|                                      |  +**GuineaPig_1
+|                                   +**|
+|                                   |  +**Rat_9
+|                                +**|
+|                                |  +**Rat_8
+|                             +--|
+|                             |  +**NakedMoleRat_16
+|                       +-----| (100)
+|                       |     +--GroundSquirrel_3
+|                    +--| (85)
+|                    |  |                       +**DeerMouse_4
+|                    |  |                    +**|
+|                    |  |                    |  +**NakedMoleRat_6
+|                    |  |                 +--|
+|                    |  |                 |  +**GuineaPig_15
+|                    |  |              +--| (93)
+|                    |  |              |  +--GuineaPig_14
+|                    |  |           +--| (44)
+|                    |  |           |  +--GroundSquirrel_9
+|                    |  |        +--| (45)
+|                    |  |        |  |  +--GuineaPig_2
+|                    |  |        |  +--| (96)
+|                    |  |        |     +--NakedMoleRat_17
+|                    |  |     +--| (73)
+|                    |  |     |  +--Rat_5
+|                    |  |  +--| (88)
+|                    |  |  |  |                                                     +--DeerMouse_5
+|                    |  |  |  |                                                  +--| (98)
+|                    |  |  |  |                                                  |  +--Rat_4
+|                    |  |  |  |                                               +--| (96)
+|                    |  |  |  |                                               |  +--GroundSquirrel_8
+|                    |  |  |  |                                            +--| (69)
+|                    |  |  |  |                                            |  +--GuineaPig_8
+|                    |  |  |  |                                +-----------| (98)
+|                    |  |  |  |                                |           +--NakedMoleRat_9
+|                    |  |  |  |                           +----| (78)
+|                    |  |  |  |                           |    |             +--GroundSquirrel_16
+|                    |  |  |  |                           |    +-------------| (100)
+|                    |  |  |  |                           |                  |     +--GuineaPig_3
+|                    |  |  |  |                           |                  |  +--| (97)
+|                    |  |  |  |                           |                  |  |  +--NakedMoleRat_5
+|                    |  |  |  |                           |                  +--| (96)
+|                    |  |  |  |                           |                     +--Rat_2
+|                    |  |  |  |                        +--| (66)
+|                    |  |  |  |                        |  +--GroundSquirrel_15
+|                    |  |  |  |                     +--| (50)
+|                    |  |  |  |                     |  |  +---GroundSquirrel_14
+|                    |  |  |  |                     |  +--| (82)
+|                    |  |  |  |                     |     |  +--NakedMoleRat_14
+|                    |  |  |  |                     |     +--| (94)
+|                    |  |  |  |                     |        +--NakedMoleRat_15
+|                    |  |  |  |                  +--| (50)
+|                    |  |  |  |                  |  |              +--DeerMouse_6
+|                    |  |  |  |                  |  |           +--| (81)
+|                    |  |  |  |                  |  |           |  +--Rat_10
+|                    |  |  |  |                  |  |        +--| (84)
+|                    |  |  |  |                  |  |        |  |  +--GroundSquirrel_12
+|                    |  |  |  |                  |  |        |  +--| (93)
+|                    |  |  |  |                  |  |        |     +--GroundSquirrel_13
+|                    |  |  |  |                  |  |     +--| (33)
+|                    |  |  |  |                  |  |     |  +--NakedMoleRat_13
+|                    |  |  |  |                  |  |  +--| (36)
+|                    |  |  |  |                  |  |  |  |                             +--GroundSquirrel_10
+|                    |  |  |  |                  |  |  |  |                          +--| (87)
+|                    |  |  |  |                  |  |  |  |                          |  +--Rat_16
+|                    |  |  |  |                  |  |  |  +--------------------------| (100)
+|                    |  |  |  |                  |  |  |                             +--NakedMoleRat_10
+|                    |  |  |  |                  |  +--| (42)
+|                    |  |  |  |                  |     +--GuineaPig_11
+|                    |  |  |  |        +---------| (85)
+|                    |  |  |  |        |         |        +--GroundSquirrel_11
+|                    |  |  |  |        |         |  +-----| (100)
+|                    |  |  |  |        |         |  |     |  +--GuineaPig_10
+|                    |  |  |  |        |         |  |     +--| (96)
+|                    |  |  |  |        |         |  |        |  +--NakedMoleRat_11
+|                    |  |  |  |        |         |  |        +--| (98)
+|                    |  |  |  |        |         |  |           +--NakedMoleRat_12
+|                    |  |  |  |        |         +--| (44)
+|                    |  |  |  |        |            +--GuineaPig_12
+|                    |  |  |  |  +-----| (84)
+|                    |  |  |  |  |     |  +----------------GroundSquirrel_1
+|                    |  |  |  |  |     +--| (38)
+|                    |  |  |  |  |        |                    +--GroundSquirrel_5
+|                    |  |  |  |  |        |                 +--| (92)
+|                    |  |  |  |  |        |                 |  |  +--GuineaPig_4
+|                    |  |  |  |  |        |                 |  +--| (99)
+|                    |  |  |  |  |        |                 |     +--NakedMoleRat_4
+|                    |  |  |  |  |        +-----------------| (100)
+|                    |  |  |  |  |                          +--Rat_1
+|                    |  |  |  +--| (64)
+|                    |  |  |     +--------------Rat_11
+|                    |  +--| (86)
+|                    |     |           +--GroundSquirrel_2
+|                    |     |        +--| (85)
+|                    |     |        |  +--NakedMoleRat_18
+|                    |     |     +--| (82)
+|                    |     |     |  +--GuineaPig_9
+|                    |     +-----| (99)
+|                    |           +--Rat_15
+|                 +--| (65)
+|                 |  |     +--GroundSquirrel_17
+|                 |  |  +--| (62)
+|                 |  |  |  +--GuineaPig_16
+|                 |  +--| (61)
+|                 |     +--NakedMoleRat_3
+|              +--| (36)
+|              |  |  +--GroundSquirrel_18
+|              |  +--| (49)
+|              |     +--GroundSquirrel_19
+|           +--| (49)
+|           |  +--Rat_13
+|        +--| (47)
+|        |  |                    +**DeerMouse_3
+|        |  |                 +**|
+|        |  |                 |  +**GuineaPig_6
+|        |  |              +**|
+|        |  |              |  +**GuineaPig_5
+|        |  |           +**|
+|        |  |           |  +**Rat_3
+|        |  |        +**|
+|        |  |        |  +**NakedMoleRat_1
+|        |  |     +--|
+|        |  |     |  +**NakedMoleRat_2
+|        |  |  +--| (98)
+|        |  |  |  +--GroundSquirrel_7
+|        |  +--| (76)
+|        |     |  +--GuineaPig_7
+|        |     +--| (99)
+|        |        |  +--Rat_6
+|        |        +--| (94)
+|        |           +--Rat_7
+|     +--| (38)
+|     |  |     +--GroundSquirrel_4
+|     |  |  +--| (94)
+|     |  |  |  +--NakedMoleRat_8
+|     |  +--| (96)
+|     |     +--Rat_14
+|  +--| (45)
+|  |  +--GroundSquirrel_6
++--| (97)
+|  |  +--GuineaPig_13
+|  +--| (53)
+|     +--NakedMoleRat_7
+|
++--Rat_12
+
+
+Consensus tree in newick format: 
+
+(DeerMouse_1:0.0000026897,(((((((((((((DeerMouse_2:0.0000000000,GuineaPig_1:0.0000000000):0.0000000000,Rat_9:0.0000000000):0.0000000000,Rat_8:0.0000000000):0.0000000000,NakedMoleRat_16:0.0000000000):0.0000026897,GroundSquirrel_3:0.0000026897)100:0.5436232250,((((((((DeerMouse_4:0.0000000000,NakedMoleRat_6:0.0000000000):0.0000000000,GuineaPig_15:0.0000000000):0.0000026897,GuineaPig_14:0.0000026897)93:0.2323305336,GroundSquirrel_9:0.0000026897)44:0.0158418456,(GuineaPig_2:0.0000026897,NakedMoleRat_17:0.0000026897)96:0.0000026897)45:0.0318808202,Rat_5:0.0000026897)73:0.1955721018,(((((((((((DeerMouse_5:0.0347376172,Rat_4:0.0352567694)98:0.0360717704,GroundSquirrel_8:0.0180094015)96:0.0175002620,GuineaPig_8:0.0000026897)69:0.0000024501,NakedMoleRat_9:0.0539829287)98:1.0403709269,(GroundSquirrel_16:0.0000026897,((GuineaPig_3:0.0253533763,NakedMoleRat_5:0.0299664879)97:0.0376075305,Rat_2:0.0368849443)96:0.0182417558)100:1.2534201675)78:0.4359675315,GroundSquirrel_15:0.1466085725)66:0.0562913799,(GroundSquirrel_14:0.3677067472,(NakedMoleRat_14:0.0526548410,NakedMoleRat_15:0.0660103218)94:0.0358443094)82:0.0490369867)50:0.1011942886,(((((DeerMouse_6:0.0169361185,Rat_10:0.0171188262)81:0.0343739994,(GroundSquirrel_12:0.0000026897,GroundSquirrel_13:0.0000026897)93:0.0000026897)84:0.0309502270,NakedMoleRat_13:0.0994439909)33:0.0000026897,((GroundSquirrel_10:0.0169932369,Rat_16:0.0343673598)87:0.0294514605,NakedMoleRat_10:0.0049743089)100:2.2862747421)36:0.0193840257,GuineaPig_11:0.0000026961)42:0.0967681871)50:0.0623947684,((GroundSquirrel_11:0.0000024378,(GuineaPig_10:0.0166278533,(NakedMoleRat_11:0.0000026897,NakedMoleRat_12:0.0000026897)98:0.0166905505)96:0.0161972572)100:0.5547013178,GuineaPig_12:0.0000029596)44:0.0236783545)85:0.8972839670,(GroundSquirrel_1:1.4513048020,((GroundSquirrel_5:0.0000026897,(GuineaPig_4:0.0494754760,NakedMoleRat_4:0.0348020428)99:0.0160439561)92:0.0681000375,Rat_1:0.0000022278)100:1.5245500297)38:0.0000021668)84:0.5261396226,Rat_11:1.3084746076)64:0.2074075264)88:0.3254230845,(((GroundSquirrel_2:0.0000026897,NakedMoleRat_18:0.0322449809)85:0.0164528253,GuineaPig_9:0.0156201822)82:0.0329593979,Rat_15:0.0000023387)99:0.5115015676)86:0.2731785994)85:0.1630587330,((GroundSquirrel_17:0.1024342479,GuineaPig_16:0.0000025488)62:0.0637377833,NakedMoleRat_3:0.1770358871)61:0.0727731667)65:0.0467841876,(GroundSquirrel_18:0.0000026897,GroundSquirrel_19:0.0000026897)49:0.0000026897)36:0.0000027910,Rat_13:0.0162430545)49:0.0171563447,(((((((DeerMouse_3:0.0000000000,GuineaPig_6:0.0000000000):0.0000000000,GuineaPig_5:0.0000000000):0.0000000000,Rat_3:0.0000000000):0.0000000000,NakedMoleRat_1:0.0000000000):0.0000000000,NakedMoleRat_2:0.0000000000):0.0000026897,GroundSquirrel_7:0.0000026897)98:0.0326623864,(GuineaPig_7:0.0000026513,(Rat_6:0.0000026897,Rat_7:0.0000026897)94:0.0164616740)99:0.0418397031)76:0.0205514121)47:0.0231446807,((GroundSquirrel_4:0.0000026897,NakedMoleRat_8:0.0347088138)94:0.0028425943,Rat_14:0.0834534436)96:0.3160786799)38:0.0000026961,GroundSquirrel_6:0.0000026897)45:0.0163185071,(GuineaPig_13:0.0000026897,NakedMoleRat_7:0.1193895900)53:0.0162606159)97:0.0171157903,Rat_12:0.0000026897);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/tree/hsp70_tree.treefile -m "LG" --length 145
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/alignment/combined_hsp70_aligned.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/alignment/combined_hsp70_aligned.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Dec  3 18:34:20 2024
+Total CPU time used: 117.686238 seconds (0h:1m:57s)
+Total wall-clock time used: 119.9813066 seconds (0h:1m:59s)
+

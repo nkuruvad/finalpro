@@ -6,4 +6,4 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --mem=32G
 
-iqtree -s data/results/alignment/combined_hsp70_aligned.fa -m LG -bb 1000 -pre data/results/tree/hsp70_tree
+singularity exec /project/stuckert/nkuruvad/iqtree2.sif iqtree2 -s results/alignment/combined_hsp70_aligned.fa -m LG -bb 1000 -pre results/tree/hsp70_tree

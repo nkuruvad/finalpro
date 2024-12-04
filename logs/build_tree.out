@@ -1,0 +1,241 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    compute-0-30.local (AVX, 62 GB RAM)
+Command: /iqtree-2.3.6-Linux-intel/bin/iqtree2 -s results/alignment/combined_hsp70_aligned.fa -m LG -bb 1000 -pre results/tree/hsp70_tree
+Seed:    299935 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Dec  3 18:32:20 2024
+Kernel:  AVX - 1 threads (10 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 10 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/alignment/combined_hsp70_aligned.fa ... Fasta format detected
+Reading fasta file: done in 0.000209306 secs using 66.41% CPU
+Alignment most likely contains protein sequences
+Alignment has 75 sequences with 145 columns, 142 distinct patterns
+109 parsimony-informative, 15 singleton sites, 21 constant sites
+                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.4854e-05 secs using 96.56% CPU
+   1  DeerMouse_1         58.62%    passed     95.29%
+   2  DeerMouse_2         58.62%    passed     24.49%
+   3  DeerMouse_3         58.62%    passed     99.79%
+   4  DeerMouse_4         58.62%    passed     81.70%
+   5  DeerMouse_5         58.62%    failed      0.73%
+   6  DeerMouse_6         58.62%    passed     98.38%
+   7  GroundSquirrel_1    58.62%    failed      0.65%
+   8  GroundSquirrel_2    58.62%    passed     54.43%
+   9  GroundSquirrel_3    58.62%    passed     24.49%
+  10  GroundSquirrel_4    58.62%    passed     52.54%
+  11  GroundSquirrel_5    58.62%    passed      8.24%
+  12  GroundSquirrel_6    58.62%    passed     95.64%
+  13  GroundSquirrel_7    58.62%    passed     99.79%
+  14  GroundSquirrel_8    58.62%    failed      0.12%
+  15  GroundSquirrel_9    58.62%    passed     81.40%
+  16  GroundSquirrel_10   58.62%    failed      0.01%
+  17  GroundSquirrel_11   58.62%    passed     79.56%
+  18  GroundSquirrel_12   58.62%    passed     97.38%
+  19  GroundSquirrel_13   58.62%    passed     97.38%
+  20  GroundSquirrel_14   58.62%    passed     18.98%
+  21  GroundSquirrel_15   58.62%    passed     83.92%
+  22  GroundSquirrel_16   58.62%    passed      5.52%
+  23  GroundSquirrel_17   58.62%    passed     95.80%
+  24  GroundSquirrel_18   58.62%    passed     96.24%
+  25  GroundSquirrel_19   58.62%    passed     96.24%
+  26  GuineaPig_1         58.62%    passed     24.49%
+  27  GuineaPig_2         58.62%    passed     90.31%
+  28  GuineaPig_3         58.62%    passed     10.85%
+  29  GuineaPig_4         58.62%    passed      9.95%
+  30  GuineaPig_5         58.62%    passed     99.79%
+  31  GuineaPig_6         58.62%    passed     99.79%
+  32  GuineaPig_7         58.62%    passed     99.18%
+  33  GuineaPig_8         58.62%    failed      0.34%
+  34  GuineaPig_9         58.62%    passed     42.64%
+  35  GuineaPig_10        58.62%    passed     75.70%
+  36  GuineaPig_11        58.62%    passed     90.04%
+  37  GuineaPig_12        58.62%    passed     39.29%
+  38  GuineaPig_13        58.62%    passed     96.04%
+  39  GuineaPig_14        58.62%    passed     81.70%
+  40  GuineaPig_15        58.62%    passed     81.70%
+  41  GuineaPig_16        58.62%    passed     99.90%
+  42  NakedMoleRat_1      58.62%    passed     99.79%
+  43  NakedMoleRat_2      58.62%    passed     99.79%
+  44  NakedMoleRat_3      58.62%    passed     94.29%
+  45  NakedMoleRat_4      58.62%    failed      1.54%
+  46  NakedMoleRat_5      58.62%    failed      3.78%
+  47  NakedMoleRat_6      58.62%    passed     81.70%
+  48  NakedMoleRat_7      58.62%    passed     59.33%
+  49  NakedMoleRat_8      58.62%    passed     30.49%
+  50  NakedMoleRat_9      58.62%    failed      0.11%
+  51  NakedMoleRat_10     58.62%    failed      0.02%
+  52  NakedMoleRat_11     58.62%    passed     85.96%
+  53  NakedMoleRat_12     58.62%    passed     87.81%
+  54  NakedMoleRat_13     58.62%    passed     94.60%
+  55  NakedMoleRat_14     58.62%    passed     91.14%
+  56  NakedMoleRat_15     58.62%    passed     60.25%
+  57  NakedMoleRat_16     58.62%    passed     24.49%
+  58  NakedMoleRat_17     58.62%    passed     90.31%
+  59  NakedMoleRat_18     58.62%    passed     69.89%
+  60  Rat_1               58.62%    passed     15.47%
+  61  Rat_2               58.62%    failed      3.68%
+  62  Rat_3               58.62%    passed     99.79%
+  63  Rat_4               58.62%    failed      0.26%
+  64  Rat_5               58.62%    passed     93.10%
+  65  Rat_6               58.62%    passed     99.79%
+  66  Rat_7               58.62%    passed     99.79%
+  67  Rat_8               58.62%    passed     24.49%
+  68  Rat_9               58.62%    passed     24.49%
+  69  Rat_10              58.62%    passed     98.10%
+  70  Rat_11              58.62%    passed     79.26%
+  71  Rat_12              58.62%    passed     95.29%
+  72  Rat_13              58.62%    passed     94.49%
+  73  Rat_14              58.62%    passed     52.95%
+  74  Rat_15              58.62%    passed     47.77%
+  75  Rat_16              58.62%    failed      0.02%
+WARNING: 75 sequences contain more than 50% gaps/ambiguity
+****  TOTAL               58.62%  12 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Rat_12 is identical to DeerMouse_1 but kept for subsequent analysis
+NOTE: GroundSquirrel_3 is identical to DeerMouse_2 but kept for subsequent analysis
+NOTE: GroundSquirrel_7 is identical to DeerMouse_3 but kept for subsequent analysis
+NOTE: GuineaPig_14 is identical to DeerMouse_4 but kept for subsequent analysis
+NOTE: GroundSquirrel_13 is identical to GroundSquirrel_12 but kept for subsequent analysis
+NOTE: GroundSquirrel_19 is identical to GroundSquirrel_18 but kept for subsequent analysis
+NOTE: NakedMoleRat_17 is identical to GuineaPig_2 but kept for subsequent analysis
+NOTE: Rat_7 is identical to Rat_6 but kept for subsequent analysis
+NOTE: 11 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: GuineaPig_1 (identical to DeerMouse_2) is ignored but added at the end
+NOTE: NakedMoleRat_16 (identical to DeerMouse_2) is ignored but added at the end
+NOTE: Rat_8 (identical to DeerMouse_2) is ignored but added at the end
+NOTE: Rat_9 (identical to DeerMouse_2) is ignored but added at the end
+NOTE: GuineaPig_5 (identical to DeerMouse_3) is ignored but added at the end
+NOTE: GuineaPig_6 (identical to DeerMouse_3) is ignored but added at the end
+NOTE: NakedMoleRat_1 (identical to DeerMouse_3) is ignored but added at the end
+NOTE: NakedMoleRat_2 (identical to DeerMouse_3) is ignored but added at the end
+NOTE: Rat_3 (identical to DeerMouse_3) is ignored but added at the end
+NOTE: GuineaPig_15 (identical to DeerMouse_4) is ignored but added at the end
+NOTE: NakedMoleRat_6 (identical to DeerMouse_4) is ignored but added at the end
+Alignment was printed to results/tree/hsp70_tree.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/tree/hsp70_tree.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.013 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 299935)...
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3310.415
+Optimal log-likelihood: -3001.072
+Parameters optimization took 1 rounds (0.049 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.144344 secs using 99.73% CPU
+Computing ML distances took 0.144413 sec (of wall-clock time) 0.144016 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000151269 secs
+Computing RapidNJ tree took 0.000626 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3042.028
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.744 second
+Computing log-likelihood of 98 initial trees ... 1.113 seconds
+Current best score: -3001.072
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2986.336
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -2980.997
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -2979.455
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -2978.703
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -2974.683
+Iteration 10 / LogL: -2978.636 / Time: 0h:0m:9s
+Iteration 20 / LogL: -2988.552 / Time: 0h:0m:15s
+Finish initializing candidate tree set (19)
+Current best tree score: -2974.683 / CPU time: 15.400
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -2975.252 / Time: 0h:0m:22s (0h:1m:0s left)
+Iteration 40 / LogL: -2975.920 / Time: 0h:0m:27s (0h:0m:48s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -2973.579
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -2973.473
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 47: -2972.497
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -2971.345
+Iteration 50 / LogL: -2980.093 / Time: 0h:0m:34s (0h:1m:10s left)
+Log-likelihood cutoff on original alignment: -3003.491
+Iteration 60 / LogL: -2982.998 / Time: 0h:0m:39s (0h:0m:59s left)
+BETTER TREE FOUND at iteration 62: -2971.345
+UPDATE BEST LOG-LIKELIHOOD: -2971.345
+Iteration 70 / LogL: -2971.625 / Time: 0h:0m:45s (0h:1m:0s left)
+Iteration 80 / LogL: -2971.422 / Time: 0h:0m:50s (0h:0m:52s left)
+Iteration 90 / LogL: -2992.000 / Time: 0h:0m:55s (0h:0m:45s left)
+Iteration 100 / LogL: -2971.346 / Time: 0h:1m:0s (0h:0m:37s left)
+Log-likelihood cutoff on original alignment: -3003.491
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+BETTER TREE FOUND at iteration 101: -2971.345
+UPDATE BEST LOG-LIKELIHOOD: -2971.345
+Iteration 110 / LogL: -2971.345 / Time: 0h:1m:7s (0h:0m:55s left)
+Iteration 120 / LogL: -2973.788 / Time: 0h:1m:13s (0h:0m:49s left)
+Iteration 130 / LogL: -2972.425 / Time: 0h:1m:18s (0h:0m:43s left)
+Iteration 140 / LogL: -2971.345 / Time: 0h:1m:24s (0h:0m:37s left)
+UPDATE BEST LOG-LIKELIHOOD: -2971.345
+Iteration 150 / LogL: -2972.717 / Time: 0h:1m:29s (0h:0m:30s left)
+Log-likelihood cutoff on original alignment: -3003.745
+Iteration 160 / LogL: -3065.358 / Time: 0h:1m:34s (0h:0m:24s left)
+Iteration 170 / LogL: -2971.345 / Time: 0h:1m:40s (0h:0m:18s left)
+UPDATE BEST LOG-LIKELIHOOD: -2971.345
+UPDATE BEST LOG-LIKELIHOOD: -2971.345
+Iteration 180 / LogL: -2971.345 / Time: 0h:1m:46s (0h:0m:12s left)
+Iteration 190 / LogL: -2982.932 / Time: 0h:1m:53s (0h:0m:6s left)
+Iteration 200 / LogL: -2975.568 / Time: 0h:1m:58s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -3003.491
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 202 ITERATIONS / Time: 0h:1m:59s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2971.345
+Optimal log-likelihood: -2971.345
+Parameters optimization took 1 rounds (0.017 sec)
+BEST SCORE FOUND : -2971.345
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/tree/hsp70_tree.splits.nex
+Total tree length: 17.210
+
+Total number of iterations: 202
+CPU time used for tree search: 117.238 sec (0h:1m:57s)
+Wall-clock time used for tree search: 119.297 sec (0h:1m:59s)
+Total CPU time used: 117.686 sec (0h:1m:57s)
+Total wall-clock time used: 119.766 sec (0h:1m:59s)
+
+Computing bootstrap consensus tree...
+Reading input file results/tree/hsp70_tree.splits.nex...
+64 taxa and 649 splits.
+Consensus tree written to results/tree/hsp70_tree.contree
+Reading input trees file results/tree/hsp70_tree.contree
+Log-likelihood of consensus tree: -2972.501
+
+Analysis results written to: 
+  IQ-TREE report:                results/tree/hsp70_tree.iqtree
+  Maximum-likelihood tree:       results/tree/hsp70_tree.treefile
+  Likelihood distances:          results/tree/hsp70_tree.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/tree/hsp70_tree.splits.nex
+  Consensus tree:                results/tree/hsp70_tree.contree
+  Screen log file:               results/tree/hsp70_tree.log
+
+Date and Time: Tue Dec  3 18:34:20 2024
