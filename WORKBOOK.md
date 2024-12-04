@@ -67,8 +67,16 @@ git push
    - Mus_musculus → Mouse
    - (other mappings...)
 2. Replaced scientific names with common names in FASTA headers using:
-   `sed "s/>.*$/>${spp}_/" $file > data/processed/cleaned_${spp}_hsp70.fa`
+   `awk -v sp="$spp" '/^>/ {print ">" sp "_" ++i; next} {print}' "$file" > data/processed/cleaned/${spp}_hsp70.fa`
 3. Combined cleaned files into a single file: `data/processed/combined_hsp70.fa`.
+
+Mistakes and Fixes:
+	Mistake: Skipped species due to mismatched names in the script.
+Fix: Corrected mappings in cleancomb.sh and re-ran the pipeline.
+	Mistake: Accidentally created scripts and results inside the data directory.
+Fix: Removed incorrect directories and reorganized the project structure.
+	Validation:
+	Verified logs/process_hsp70.out to confirm successful processing and combination.
 
 ### Notes:
 - Common names make downstream results easier to interpret.
@@ -76,7 +84,33 @@ git push
 
 ### Alignment
 - aligned sequences using MAFFT with 20 CPUs and 64GB memory.
-- output stored in `results/aligned_hsp70.fa`
+- output stored in `results/combined_hsp70_aligned.fa`
+- Attempted to run MAFFT using Singularity but encountered several errors:
+	Error 1: mktemp: No such file or directory and Cannot open infile.
+  Cause: Singularity couldn’t create or access temporary files due to the /scratch directory being read-only.
+  Fix:
+1. Created a local writable directory temp_dir and used the --bind option to bind it to /scratch.
+2.Corrected the align_hsp70.sh script to include the proper --bind option:
+	```singularity exec --bind $(pwd)/temp_dir:/scratch /project/stuckert/nkuruvad/mafft.sif 		mafft --auto --thread 10 data/processed/combined_hsp70.fa > 					data/results/alignment/combined_hsp70_aligned.fa```
+3.Re-ran the alignment script after fixing the issues:
+	```sbatch scripts/align_hsp70.sh```
+4.Verified the results:
+	Alignment successfully completed.
+	Output file generated: `data/results/alignment/combined_hsp70_aligned.fa.`
+
+Error Log:
+	Error Message: mktemp: No such file or directory.
+	Solution: Created a local temp_dir and bound it using --bind in the Singularity command.
+
+Commands Used:
+	1.Created the temporary directory
+		```mkdir temp_dir```
+	2.Submitted the job:
+		```sbatch scripts/align_hsp70.sh```
+
+Outcome:
+	Successfully aligned the sequences in combined_hsp70.fa using MAFFT.
+	Results saved in: data/results/alignment/combined_hsp70_aligned.fa.
 
 ### Tree Construction
 - built phylogenetic tree using IQ-TREE with the LG model and 1000 bootstrap replicates.
