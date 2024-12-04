@@ -114,9 +114,22 @@ Outcome:
 
 ### Tree Construction
 - built phylogenetic tree using IQ-TREE with the LG model and 1000 bootstrap replicates.
-- output files include:
-  - tree file: `results/hsp70_tree.treefile`
-  - bootstrap: `results/hsp70_tree.contree`
+#### **Steps Taken:**
+1. Prepared the aligned file `combined_hsp70_aligned.fa` for tree construction.
+2. Used IQ-TREE to construct a maximum likelihood tree with 1000 bootstraps.
+   - **Command:**
+     ```bash
+     iqtree -s data/results/alignment/combined_hsp70_aligned.fa -m LG -bb 1000 -pre data/results/tree/hsp70_tree
+     ```
+3. Submitted the job using `scripts/build_tree.sh`.
+4. Verified that the tree files were successfully created:
+   - `data/results/tree/hsp70_tree.treefile`
+   - `data/results/tree/hsp70_tree.iqtree`
+   - `data/results/tree/hsp70_tree.boot`
+
+#### **Outcome:**
+- Successfully created a phylogenetic tree.
+- Output ready for visualization in R.
 
 ### Notes
 - no Hsp70 results found in *Castor canadensis* or *Mus musculus* files.
