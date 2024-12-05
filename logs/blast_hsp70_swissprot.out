@@ -1,0 +1,11 @@
+
+
+Building a new DB, current time: 12/05/2024 15:31:11
+New DB name:   /project/stuckert/nkuruvad/fpro/swissprot/spdb
+New DB title:  swissprot/swissprot
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 482697 sequences in 14.2974 seconds.
+
+

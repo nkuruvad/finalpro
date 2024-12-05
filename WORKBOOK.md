@@ -134,3 +134,51 @@ Outcome:
 ### Notes
 - no Hsp70 results found in *Castor canadensis* or *Mus musculus* files.
 - proceeding with the Hsp70 focus for phylogenetic analysis.
+
+##Day 3 - Blast
+### BLAST Analysis
+
+#### **Step 1: Database Setup**
+1. Downloaded the SwissProt database and created a BLAST database named `spdb` using the `makespdb.sh` script.
+   - Database files are stored in the `swissprot/` directory.
+
+#### **Step 2: Preparing Query Sequences**
+1. Copied the aligned sequences file:
+   ```bash
+   cp results/alignment/combined_hsp70_aligned.fa results/alignment/combined_hsp70_blast.fa
+   ```
+2. Removed alignment gaps (`-`) to prepare for BLAST:
+   ```bash
+   sed 's/-//g' results/alignment/combined_hsp70_blast.fa > results/alignment/combined_hsp70_blastdb.fa
+   ```
+   - Output: `results/alignment/combined_hsp70_blastdb.fa`
+
+#### **Step 3: Running BLAST**
+1. Created a SLURM script `run_blast_swissprot.sh`:
+   ```bash
+   #!/bin/bash
+   #SBATCH --job-name=blast_swissprot
+   #SBATCH --output=logs/blast_swissprot.out
+   #SBATCH --error=logs/blast_swissprot.err
+   #SBATCH --time=02:00:00
+   #SBATCH --cpus-per-task=10
+   #SBATCH --mem=32G
+
+   blastp -query results/alignment/combined_hsp70_blastdb.fa -db swissprot/spdb -out results/blast/blast_results.txt -evalue 1e-5 -outfmt 6 -num_threads 10
+
+   echo "BLASTP against SwissProt database completed."
+   ```
+   - Output: `results/blast/blast_results.txt`
+
+#### **Step 4: Filtering BLAST Results**
+1. Filtered the BLAST results for significant hits:
+   ```bash
+   awk '$11 <= 1e-5' results/blast/blast_results.txt > results/blast/significant_hits.txt
+   ```
+   - Output: `results/blast/significant_hits.txt`
+
+---
+
+#### **Next Steps**
+- Analyze `significant_hits.txt` for functional insights.
+- Visualize BLAST results to identify trends and key homologs.
